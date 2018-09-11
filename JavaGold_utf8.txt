@@ -33,16 +33,21 @@ staticクラスは非static・staticメンバを記述可　外側クラスの�
 同名変数はthisを用いる、外側クラスの同名変数にアクセスするには外側クラス名.this.変数名
 
 ローカルクラス(メソッドの中にクラスを記述、非staticのみ)
-アクセス修飾子を使用できない。abstractとfinalは使用可　
+アクセス修飾子を使用できない。abstractとfinalは使用可　外側クラスのメンバにアクセス可能
 外側クラスの引数・ローカル変数にアクセス可能→アクセスする変数がfinalでないといけない(代入不可)、SE8から自動で付与　フィールド変数はfinal付与は不要
 
 匿名クラス(アクセス修飾子・static・abstract・final使用不可)　代入可能
 クラス指定をしないで、クラス定義とインスタンス化を１つの式として定義。サブクラス・インターフェースを実装したクラスになる
-外側クラスのメンバにアクセス可能、外側クラスのメソッドの引数・ローカル変数にアクセス可能(要final)、コンストラクタの定義不可
+外側クラスのメンバにアクセス可能
+外側クラスのメソッドの引数・ローカル変数にアクセス可能(ローカル変数・引数は要final)、コンストラクタの定義不可
 New　スーパクラス・インターフェース名(){};　無名の実装クラスがインスタンス化される
 
-関数型インタフェース       UnaryOperator<T> T apply(T t)
-Function<T,R> R apply(T t)  Consumer<T> void accept(T t) Predicate<T> boolean test(T t) Supplier<T> T get()
+関数型インタフェース
+UnaryOperator<T> T apply(T t)
+Function<T,R> R apply(T t)  
+Consumer<T> void accept(T t) 
+Predicate<T> boolean test(T t)
+Supplier<T> T get()
 要件　・単一の抽象メソッド(staticメソッド・defaultメソッドは定義可能)　java.langObjectのpublicメソッドは抽象メソッドとして定義可能
 関数型インタフェースとして明示的に宣言する場合は@FunctionInterfaceを付与する abstract classは抽象クラスなので関数型インタフェースではない
 
@@ -78,13 +83,20 @@ Newする際には1.new Hoge(ture) 2.new Hoge<>(10) 3.new Hoge<String>(“ABC”
 <? Extends hoge>の場合、実行するまで?の型がわからないので、add等の何かしらのオブジェクトを格納するコードを記述するとコンパイルエラー
 <? Super hoge>の場合は、hogeと同じ型の場合は要素の追加が可能
 
-ソートを利用するには、Comparableを実装しなければならない。実装しないでTreeSetなどのソートするオブジェクトに格納すると実行時例外
+ソートを利用するには、Comparableを実装しなければならない。java.langパッケージ
+実装しないでTreeSetなどのソートするオブジェクトに格納すると実行時例外
 Integer,Double,StringなどはComparableを実装しているのでTreeSetオブジェクト等に格納できる
-Comparableインターフェースには、compareTo()メソッドのみ宣言されている。
+Comparableインターフェースには、compareTo()メソッドのみ宣言されている。自然順序を提供(昇順)
 Public int compareTo(T o)　自オブジェクトと引数oに渡されたオブジェクトを比較　結果を整数で返す
 比較ルール　　==は０　自＜比較対象→負の数　自＞比較対象→正の数　
+Import java.util.*;
+Class hoge implements Comparator<String>
+Public int compare(String s1, String s2){
+	return s1.compareTo(s2) 		自然順序	s1.toLowerCase()で文字を小文字にする
+	return s2.compareTo(s1) 		逆になる	s1.toUpperCase()で文字を大文字にする
+}
 
-Comparatorインターフェースは比較ルールを独立したクラスとして定義可能
+Comparatorインターフェースは比較ルールを独立したクラスとして定義可能 java.utilパッケージ
 compare(), equals()メソッドで宣言されている。compare()メソッドをオーバーライドして並び順を決定する実装を行う。equals()の実装は任意
 Public int compare(T o1, T o2)  interface Comparator<T>となっているので、比較対象のデータ型をTに指定する必要がある
 比較ルールは上記と同じ
@@ -119,6 +131,37 @@ Arrays		Java.util(Collectionは実装していない)
 順序付けなしは出力した際に挿入した順では出力されない.出力結果は不定。
 自然順序(数値は昇順、文字は辞書順)でソートした際に数値と文字列が混ざっていた場合は数値が先にソート
 <>を指定しないでリストを作成すると、様々な型のオブジェクトを格納するobject型のリストができる。拡張forでobject型(警告が出る)以外の型を指定するとコンパイルエラー
+
+
+ラムダ式　<>の型指定をしないとコンパイルエラー
+インターフェース		抽象メソッド		概要
+Function<T,R>		R apply(T t)		実装するメソッドは、引数としてTを受け取り、結果としてRを返す。
+BiFunction<T,U,R>	R apply(T t, U u)	実装するメソッドは、引数としてTとUを受け取り、結果としてRを返す。
+UnaryOperator<T>	T apply(T t)		実装するメソッドは、引数としてTを受け取り、結果としてTを返す。Functionを拡張したもの
+BinaryOperator<T>	T apply(T t1, T t2)	実装するメソッドは、引数としてTを２つ受け取り、結果としてTを返す。BiFunctionを拡張したもの
+
+Consumer<T>		void accept(T t)	実装するメソッドは、引数としてTを受け取り、結果を返さない。
+BiConsumer<T,U>		void accept(T t,U u)	実装するメソッドは、引数としてTとUを受け取り、結果を返さない。
+
+Predicate<T>		boolean test(T t)	実装するメソッドは、引数としてTを受け取り、boolean値を結果として返す。
+BiPredicate<T,U>	boolean test(T t,U u)	実装するメソッドは、引数としてTとUを受け取り、boolean値を結果として返す。
+
+Supplier<T>		T get()			実装するメソッドは、何も引数として受け取らず、結果としてTを返す。
+
+ラムダ式の省略記法　右辺
+(String str)  →　(str)  → str
+インターフェースの宣言時に引数の型は決定しているため、型推論により型を省略できる。
+引数が１つの場合は()を省略可能。データ型を明示した場合や引数がない、複数の引数がある場合は省略できない。引数なしは ()-> と記述する。
+
+ラムダ式の省略記法　左辺
+{return str.toUpperCase();}　　→   str.UpperCase()
+処理が一文の場合は{}の省略が可能。{}を省略した場合、returnの省略が可能。returnを省略した場合、必ず{}も省略しないといけない。
+
+メソッド参照
+ラムダ式内で呼び出されるメソッドが一つの場合、SE8ではラムダ式を使用せず記述する方法が導入。これをメソッド参照と呼ぶ
+構文	クラス名/インスタンス変数名 :: メソッド名　e.g. Integer::parseInt;
+
+Staticメソッド参照	呼び出すメソッドがstaticメソッドの場合「クラス名::メソッド名」
 
 
 

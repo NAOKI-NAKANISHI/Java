@@ -33,16 +33,21 @@ staticƒNƒ‰ƒX‚Í”ñstaticEstaticƒƒ“ƒo‚ğ‹Lq‰Â@ŠO‘¤ƒNƒ‰ƒX‚ÌƒCƒ“ƒXƒ^ƒ“ƒX•Ï”(ƒtƒB
 “¯–¼•Ï”‚Íthis‚ğ—p‚¢‚éAŠO‘¤ƒNƒ‰ƒX‚Ì“¯–¼•Ï”‚ÉƒAƒNƒZƒX‚·‚é‚É‚ÍŠO‘¤ƒNƒ‰ƒX–¼.this.•Ï”–¼
 
 ƒ[ƒJƒ‹ƒNƒ‰ƒX(ƒƒ\ƒbƒh‚Ì’†‚ÉƒNƒ‰ƒX‚ğ‹LqA”ñstatic‚Ì‚İ)
-ƒAƒNƒZƒXCüq‚ğg—p‚Å‚«‚È‚¢Babstract‚Æfinal‚Íg—p‰Â@
+ƒAƒNƒZƒXCüq‚ğg—p‚Å‚«‚È‚¢Babstract‚Æfinal‚Íg—p‰Â@ŠO‘¤ƒNƒ‰ƒX‚Ìƒƒ“ƒo‚ÉƒAƒNƒZƒX‰Â”\
 ŠO‘¤ƒNƒ‰ƒX‚Ìˆø”Eƒ[ƒJƒ‹•Ï”‚ÉƒAƒNƒZƒX‰Â”\¨ƒAƒNƒZƒX‚·‚é•Ï”‚ªfinal‚Å‚È‚¢‚Æ‚¢‚¯‚È‚¢(‘ã“ü•s‰Â)ASE8‚©‚ç©“®‚Å•t—^@ƒtƒB[ƒ‹ƒh•Ï”‚Ífinal•t—^‚Í•s—v
 
 “½–¼ƒNƒ‰ƒX(ƒAƒNƒZƒXCüqEstaticEabstractEfinalg—p•s‰Â)@‘ã“ü‰Â”\
 ƒNƒ‰ƒXw’è‚ğ‚µ‚È‚¢‚ÅAƒNƒ‰ƒX’è‹`‚ÆƒCƒ“ƒXƒ^ƒ“ƒX‰»‚ğ‚P‚Â‚Ì®‚Æ‚µ‚Ä’è‹`BƒTƒuƒNƒ‰ƒXEƒCƒ“ƒ^[ƒtƒF[ƒX‚ğÀ‘•‚µ‚½ƒNƒ‰ƒX‚É‚È‚é
-ŠO‘¤ƒNƒ‰ƒX‚Ìƒƒ“ƒo‚ÉƒAƒNƒZƒX‰Â”\AŠO‘¤ƒNƒ‰ƒX‚Ìƒƒ\ƒbƒh‚Ìˆø”Eƒ[ƒJƒ‹•Ï”‚ÉƒAƒNƒZƒX‰Â”\(—vfinal)AƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Ì’è‹`•s‰Â
+ŠO‘¤ƒNƒ‰ƒX‚Ìƒƒ“ƒo‚ÉƒAƒNƒZƒX‰Â”\
+ŠO‘¤ƒNƒ‰ƒX‚Ìƒƒ\ƒbƒh‚Ìˆø”Eƒ[ƒJƒ‹•Ï”‚ÉƒAƒNƒZƒX‰Â”\(ƒ[ƒJƒ‹•Ï”Eˆø”‚Í—vfinal)AƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Ì’è‹`•s‰Â
 New@ƒX[ƒpƒNƒ‰ƒXEƒCƒ“ƒ^[ƒtƒF[ƒX–¼(){};@–³–¼‚ÌÀ‘•ƒNƒ‰ƒX‚ªƒCƒ“ƒXƒ^ƒ“ƒX‰»‚³‚ê‚é
 
-ŠÖ”Œ^ƒCƒ“ƒ^ƒtƒF[ƒX       UnaryOperator<T> T apply(T t)
-Function<T,R> R apply(T t)  Consumer<T> void accept(T t) Predicate<T> boolean test(T t) Supplier<T> T get()
+ŠÖ”Œ^ƒCƒ“ƒ^ƒtƒF[ƒX       
+UnaryOperator<T> T apply(T t)
+Function<T,R> R apply(T t)  
+Consumer<T> void accept(T t) 
+Predicate<T> boolean test(T t)
+Supplier<T> T get()
 —vŒ@E’Pˆê‚Ì’ŠÛƒƒ\ƒbƒh(staticƒƒ\ƒbƒhEdefaultƒƒ\ƒbƒh‚Í’è‹`‰Â”\)@java.langObject‚Ìpublicƒƒ\ƒbƒh‚Í’ŠÛƒƒ\ƒbƒh‚Æ‚µ‚Ä’è‹`‰Â”\
 ŠÖ”Œ^ƒCƒ“ƒ^ƒtƒF[ƒX‚Æ‚µ‚Ä–¾¦“I‚ÉéŒ¾‚·‚éê‡‚Í@FunctionInterface‚ğ•t—^‚·‚é abstract class‚Í’ŠÛƒNƒ‰ƒX‚È‚Ì‚ÅŠÖ”Œ^ƒCƒ“ƒ^ƒtƒF[ƒX‚Å‚Í‚È‚¢
 
@@ -78,13 +83,20 @@ New‚·‚éÛ‚É‚Í1.new Hoge(ture) 2.new Hoge<>(10) 3.new Hoge<String>(gABCh)‚Ç‚ê‚Å
 <? Extends hoge>‚Ìê‡AÀs‚·‚é‚Ü‚Å?‚ÌŒ^‚ª‚í‚©‚ç‚È‚¢‚Ì‚ÅAadd“™‚Ì‰½‚©‚µ‚ç‚ÌƒIƒuƒWƒFƒNƒg‚ğŠi”[‚·‚éƒR[ƒh‚ğ‹Lq‚·‚é‚ÆƒRƒ“ƒpƒCƒ‹ƒGƒ‰[
 <? Super hoge>‚Ìê‡‚ÍAhoge‚Æ“¯‚¶Œ^‚Ìê‡‚Í—v‘f‚Ì’Ç‰Á‚ª‰Â”\
 
-ƒ\[ƒg‚ğ—˜—p‚·‚é‚É‚ÍAComparable‚ğÀ‘•‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢BÀ‘•‚µ‚È‚¢‚ÅTreeSet‚È‚Ç‚Ìƒ\[ƒg‚·‚éƒIƒuƒWƒFƒNƒg‚ÉŠi”[‚·‚é‚ÆÀs—áŠO
+ƒ\[ƒg‚ğ—˜—p‚·‚é‚É‚ÍAComparable‚ğÀ‘•‚µ‚È‚¯‚ê‚Î‚È‚ç‚È‚¢Bjava.langƒpƒbƒP[ƒW
+À‘•‚µ‚È‚¢‚ÅTreeSet‚È‚Ç‚Ìƒ\[ƒg‚·‚éƒIƒuƒWƒFƒNƒg‚ÉŠi”[‚·‚é‚ÆÀs—áŠO
 Integer,Double,String‚È‚Ç‚ÍComparable‚ğÀ‘•‚µ‚Ä‚¢‚é‚Ì‚ÅTreeSetƒIƒuƒWƒFƒNƒg“™‚ÉŠi”[‚Å‚«‚é
-ComparableƒCƒ“ƒ^[ƒtƒF[ƒX‚É‚ÍAcompareTo()ƒƒ\ƒbƒh‚Ì‚İéŒ¾‚³‚ê‚Ä‚¢‚éB
+ComparableƒCƒ“ƒ^[ƒtƒF[ƒX‚É‚ÍAcompareTo()ƒƒ\ƒbƒh‚Ì‚İéŒ¾‚³‚ê‚Ä‚¢‚éB©‘R‡˜‚ğ’ñ‹Ÿ(¸‡)
 Public int compareTo(T o)@©ƒIƒuƒWƒFƒNƒg‚Æˆø”o‚É“n‚³‚ê‚½ƒIƒuƒWƒFƒNƒg‚ğ”äŠr@Œ‹‰Ê‚ğ®”‚Å•Ô‚·
 ”äŠrƒ‹[ƒ‹@@==‚Í‚O@©ƒ”äŠr‘ÎÛ¨•‰‚Ì”@©„”äŠr‘ÎÛ¨³‚Ì”@
+Import java.util.*;
+Class hoge implements Comparator<String>
+Public int compare(String s1, String s2){
+	return s1.compareTo(s2) 		©‘R‡˜	s1.toLowerCase()‚Å•¶š‚ğ¬•¶š‚É‚·‚é
+	return s2.compareTo(s1) 		‹t‚É‚È‚é	s1.toUpperCase()‚Å•¶š‚ğ‘å•¶š‚É‚·‚é
+}
 
-ComparatorƒCƒ“ƒ^[ƒtƒF[ƒX‚Í”äŠrƒ‹[ƒ‹‚ğ“Æ—§‚µ‚½ƒNƒ‰ƒX‚Æ‚µ‚Ä’è‹`‰Â”\
+ComparatorƒCƒ“ƒ^[ƒtƒF[ƒX‚Í”äŠrƒ‹[ƒ‹‚ğ“Æ—§‚µ‚½ƒNƒ‰ƒX‚Æ‚µ‚Ä’è‹`‰Â”\ java.utilƒpƒbƒP[ƒW
 compare(), equals()ƒƒ\ƒbƒh‚ÅéŒ¾‚³‚ê‚Ä‚¢‚éBcompare()ƒƒ\ƒbƒh‚ğƒI[ƒo[ƒ‰ƒCƒh‚µ‚Ä•À‚Ñ‡‚ğŒˆ’è‚·‚éÀ‘•‚ğs‚¤Bequals()‚ÌÀ‘•‚Í”CˆÓ
 Public int compare(T o1, T o2)  interface Comparator<T>‚Æ‚È‚Á‚Ä‚¢‚é‚Ì‚ÅA”äŠr‘ÎÛ‚Ìƒf[ƒ^Œ^‚ğT‚Éw’è‚·‚é•K—v‚ª‚ ‚é
 ”äŠrƒ‹[ƒ‹‚Íã‹L‚Æ“¯‚¶
@@ -119,6 +131,37 @@ Arrays		Java.util(Collection‚ÍÀ‘•‚µ‚Ä‚¢‚È‚¢)
 ‡˜•t‚¯‚È‚µ‚Ío—Í‚µ‚½Û‚É‘}“ü‚µ‚½‡‚Å‚Ío—Í‚³‚ê‚È‚¢.o—ÍŒ‹‰Ê‚Í•s’èB
 ©‘R‡˜(”’l‚Í¸‡A•¶š‚Í«‘‡)‚Åƒ\[ƒg‚µ‚½Û‚É”’l‚Æ•¶š—ñ‚ª¬‚´‚Á‚Ä‚¢‚½ê‡‚Í”’l‚ªæ‚Éƒ\[ƒg
 <>‚ğw’è‚µ‚È‚¢‚ÅƒŠƒXƒg‚ğì¬‚·‚é‚ÆA—lX‚ÈŒ^‚ÌƒIƒuƒWƒFƒNƒg‚ğŠi”[‚·‚éobjectŒ^‚ÌƒŠƒXƒg‚ª‚Å‚«‚éBŠg’£for‚ÅobjectŒ^(Œx‚ªo‚é)ˆÈŠO‚ÌŒ^‚ğw’è‚·‚é‚ÆƒRƒ“ƒpƒCƒ‹ƒGƒ‰[
+
+
+ƒ‰ƒ€ƒ_®@<>‚ÌŒ^w’è‚ğ‚µ‚È‚¢‚ÆƒRƒ“ƒpƒCƒ‹ƒGƒ‰[
+ƒCƒ“ƒ^[ƒtƒF[ƒX		’ŠÛƒƒ\ƒbƒh		ŠT—v
+Function<T,R>		R apply(T t)		À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ğó‚¯æ‚èAŒ‹‰Ê‚Æ‚µ‚ÄR‚ğ•Ô‚·B
+BiFunction<T,U,R>	R apply(T t, U u)	À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ÆU‚ğó‚¯æ‚èAŒ‹‰Ê‚Æ‚µ‚ÄR‚ğ•Ô‚·B
+UnaryOperator<T>	T apply(T t)		À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ğó‚¯æ‚èAŒ‹‰Ê‚Æ‚µ‚ÄT‚ğ•Ô‚·BFunction‚ğŠg’£‚µ‚½‚à‚Ì
+BinaryOperator<T>	T apply(T t1, T t2)	À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ğ‚Q‚Âó‚¯æ‚èAŒ‹‰Ê‚Æ‚µ‚ÄT‚ğ•Ô‚·BBiFunction‚ğŠg’£‚µ‚½‚à‚Ì
+
+Consumer<T>		void accept(T t)	À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ğó‚¯æ‚èAŒ‹‰Ê‚ğ•Ô‚³‚È‚¢B
+BiConsumer<T,U>		void accept(T t,U u)	À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ÆU‚ğó‚¯æ‚èAŒ‹‰Ê‚ğ•Ô‚³‚È‚¢B
+
+Predicate<T>		boolean test(T t)	À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ğó‚¯æ‚èAboolean’l‚ğŒ‹‰Ê‚Æ‚µ‚Ä•Ô‚·B
+BiPredicate<T,U>	boolean test(T t,U u)	À‘•‚·‚éƒƒ\ƒbƒh‚ÍAˆø”‚Æ‚µ‚ÄT‚ÆU‚ğó‚¯æ‚èAboolean’l‚ğŒ‹‰Ê‚Æ‚µ‚Ä•Ô‚·B
+
+Supplier<T>		T get()			À‘•‚·‚éƒƒ\ƒbƒh‚ÍA‰½‚àˆø”‚Æ‚µ‚Äó‚¯æ‚ç‚¸AŒ‹‰Ê‚Æ‚µ‚ÄT‚ğ•Ô‚·B
+
+ƒ‰ƒ€ƒ_®‚ÌÈ—ª‹L–@@‰E•Ó
+(String str)  ¨@(str)  ¨ str
+ƒCƒ“ƒ^[ƒtƒF[ƒX‚ÌéŒ¾‚Éˆø”‚ÌŒ^‚ÍŒˆ’è‚µ‚Ä‚¢‚é‚½‚ßAŒ^„˜_‚É‚æ‚èŒ^‚ğÈ—ª‚Å‚«‚éB
+ˆø”‚ª‚P‚Â‚Ìê‡‚Í()‚ğÈ—ª‰Â”\Bƒf[ƒ^Œ^‚ğ–¾¦‚µ‚½ê‡‚âˆø”‚ª‚È‚¢A•¡”‚Ìˆø”‚ª‚ ‚éê‡‚ÍÈ—ª‚Å‚«‚È‚¢Bˆø”‚È‚µ‚Í ()-> ‚Æ‹Lq‚·‚éB
+
+ƒ‰ƒ€ƒ_®‚ÌÈ—ª‹L–@@¶•Ó
+{return str.toUpperCase();}@@¨   str.UpperCase()
+ˆ—‚ªˆê•¶‚Ìê‡‚Í{}‚ÌÈ—ª‚ª‰Â”\B{}‚ğÈ—ª‚µ‚½ê‡Areturn‚ÌÈ—ª‚ª‰Â”\Breturn‚ğÈ—ª‚µ‚½ê‡A•K‚¸{}‚àÈ—ª‚µ‚È‚¢‚Æ‚¢‚¯‚È‚¢B
+
+ƒƒ\ƒbƒhQÆ
+ƒ‰ƒ€ƒ_®“à‚ÅŒÄ‚Ño‚³‚ê‚éƒƒ\ƒbƒh‚ªˆê‚Â‚Ìê‡ASE8‚Å‚Íƒ‰ƒ€ƒ_®‚ğg—p‚¹‚¸‹Lq‚·‚é•û–@‚ª“±“üB‚±‚ê‚ğƒƒ\ƒbƒhQÆ‚ÆŒÄ‚Ô
+\•¶	ƒNƒ‰ƒX–¼/ƒCƒ“ƒXƒ^ƒ“ƒX•Ï”–¼ :: ƒƒ\ƒbƒh–¼@e.g. Integer::parseInt;
+
+Staticƒƒ\ƒbƒhQÆ	ŒÄ‚Ño‚·ƒƒ\ƒbƒh‚ªstaticƒƒ\ƒbƒh‚Ìê‡uƒNƒ‰ƒX–¼::ƒƒ\ƒbƒh–¼v
 
 
 
